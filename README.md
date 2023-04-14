@@ -8,6 +8,9 @@ Functionalities:
 
 -Deletes Vxera responses after 5 seconds
 
+** Send suggestions through the link below:
+https://forms.gle/hUQor15VfzjJStvU9
+
 # To create a Discord Bot:
 
 https://discord.com/developers/applications
