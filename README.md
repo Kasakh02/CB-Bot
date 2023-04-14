@@ -1,5 +1,7 @@
 # My first Discord Bot!
 
+Built with JavaScript
+
 Functionalities:
 
 -Deletes -* commands (e.g. -p, -skip) for Vxera bot interactions after 1 second
