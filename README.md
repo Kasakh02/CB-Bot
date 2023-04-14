@@ -10,7 +10,7 @@ Functionalities:
 
 https://discord.com/developers/applications
 
-# Some useful documentation about discord.js
+# Useful documentation about discord.js
 
 https://discord.js.org/
 
