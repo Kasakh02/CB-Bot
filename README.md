@@ -10,6 +10,10 @@ Functionalities:
 
 https://discord.com/developers/applications
 
+# Some useful documentation about discord.js
+
+https://discord.js.org/
+
 # To have your Discord Bot online 24/7:
 
 https://discloudbot.com/
