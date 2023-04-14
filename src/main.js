@@ -21,7 +21,7 @@ client.once('ready', (c) => {
 client.on('messageCreate', (message) => {	
 	if (message.content.startsWith("-"))
 		setTimeout(() => message.delete(), 1000);
-	if (message.author.id === "228537642583588864")
+	if (message.author.id === process.env.VXERA_ID)
 		setTimeout(() => message.delete(), 5000);
 	return;
 });
