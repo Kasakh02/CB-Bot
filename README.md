@@ -28,8 +28,6 @@ Hello World!
 
 Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
 
-
-
 ** Send suggestions through the link below:
 https://forms.gle/hUQor15VfzjJStvU9
 
