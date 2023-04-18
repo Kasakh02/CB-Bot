@@ -18,11 +18,11 @@ Built with JavaScript
 
 Sends a message to the user, for example:
 
-input: /send-msg {Kasakh} {Hello World!}
-
-output: @Kasakh! Message from Kasakh:
-
-Hello World!
+>input: /send-msg {Kasakh} {Hello World!}
+>
+>output: @Kasakh! Message from Kasakh:
+>
+>Hello World!
 
 - /vc-disconnect {timer} ({user} || {voice-channel})
 
