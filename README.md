@@ -23,7 +23,7 @@ Sends a message to the user, for example:
 >output: @Kasakh! Message from Kasakh:
 >
 >Hello World!
-
+<p></p>
 - /vc-disconnect {timer} ({user} || {voice-channel})
 
 Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
