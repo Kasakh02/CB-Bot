@@ -25,12 +25,26 @@ Built with JavaScript
     >output: @Kasakh! Message from Kasakh:
     >
     >Hello World!
+    
+    - ``/ping``
+    
+    Gets the bot's ping
+
+  - <strong>Moderation<\strong> 
 
     - ``/vc-disconnect {timer} ({user} || {voice-channel})``
 
     Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
-
-- ````
+  
+  - <strong>Games<\strong
+                          
+    - ``/akinator``
+             
+    Well known Akinator game, he tries to guess who or what you are thinking about (character, object or animal)
+  
+  - <strong>Useful<\strong
+                           
+    - ``/help``
 
 # To create a Discord Bot:
 
