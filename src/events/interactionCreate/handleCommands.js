@@ -1,6 +1,63 @@
 const getLocalCommands = require('../../utils/getLocalCommands');
+const suggestion_db = require('../../formularies/suggest');
+const errorHandler = require('../../handlers/errorHandler');
 
 module.exports = async (client, interaction) => {
+
+	if (interaction.isModalSubmit()) {
+		const name_answer = interaction.fields.getTextInputValue('name');
+		const bug_answer = interaction.fields.getTextInputValue('bug');
+		const change_answer = interaction.fields.getTextInputValue('change');
+		const suggestion_answer = interaction.fields.getTextInputValue('suggestion');
+
+		if (bug_answer) {
+			const newSuggestion = new suggestion_db({
+				user: interaction.user.username,
+				name: name_answer,
+				suggestion: bug_answer,
+				type: 'bug',
+				fixed: false,
+			});
+			await newSuggestion.save();
+		}
+		if (change_answer) {
+			const newSuggestion = new suggestion_db({
+				user: interaction.user.username, 
+				name: name_answer,
+				suggestion: change_answer,
+				type: 'change',
+				fixed: false,
+			});
+			await newSuggestion.save();
+		}
+		if (suggestion_answer) {
+			const newSuggestion = new suggestion_db({
+				user: interaction.user.username, 
+				name: name_answer,
+				suggestion: suggestion_answer,
+				type:'suggestion',
+				fixed: false,
+			});
+			await newSuggestion.save();
+		}
+		if (!bug_answer && !change_answer && !suggestion_answer) {
+			interaction.reply({
+				content: 'You need to specify at least a bug, change or suggestion!',
+				ephemeral: true,
+			});
+			setTimeout (() => {
+				interaction.deleteReply();
+			}, 5000)
+		}
+		interaction.reply({
+			content: 'Your suggestion has been sent! Thank you!',
+			ephemeral: false,
+		});
+		setTimeout (() => {
+			interaction.deleteReply();
+		}, 10000)
+	}
+
 	if (!interaction.isChatInputCommand()) return;
 
 	const localCommands = getLocalCommands();
@@ -11,26 +68,6 @@ module.exports = async (client, interaction) => {
 		);
 
 		if (!commandObject) return;
-		 
-		if (commandObject.devOnly) {
-			if (!devs.includes(interaction.member.id)) {
-				interaction.reply({
-					content: 'Only developers are allowed to run this command.',
-					ephemoral: true,
-				});
-				return;
-			}
-		}
-
-		if (commandObject.testOnly) {
-			if (!(interaction.guild.id === testServer)) {
-				interaction.reply({
-					content: 'This command cannot be ran here.',
-					ephemoral: true,
-				});
-				return;
-			}
-		}
 
 		if (commandObject.permissionsRequired?.length) {
       for (const permission of commandObject.permissionsRequired) {
@@ -60,6 +97,6 @@ module.exports = async (client, interaction) => {
 
 		await commandObject.callback(client, interaction);
 	} catch (error) {
-		console.log(`There was an error running this command: ${error}.`);
+		errorHandler(client, error);
 	}
 };
