@@ -20,10 +20,12 @@ Built with JavaScript
 
     Sends a message to the user, for example:
 
-    >input: 
+    >input:
+    >
     >/send-msg {Kasakh} {Hello World!}
     >
     >output:
+    >
     >@Kasakh! Message from Kasakh:
     >
     >Hello World!
