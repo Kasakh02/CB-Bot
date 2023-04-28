@@ -14,7 +14,7 @@ Built with JavaScript
 
 - <strong>Commands</strong>:
 
-  - <strong>Fun</strong>
+  - <strong>Fun<\strong>
 
     - ``/send-msg {user} {message}``
 
