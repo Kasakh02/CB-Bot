@@ -2,7 +2,7 @@
 
 Built with JavaScript
 
-<strong>Functionalities</strong>:
+- <strong>Functionalities</strong>:
 
 -Deletes -* commands (e.g. -p, -skip) for Vxera bot interactions after 1 second
 
@@ -14,19 +14,21 @@ Built with JavaScript
 
 - <strong>Commands</strong>:
 
-  - ``/send-msg {user} {message}``
+  - <strong>Fun</strong>
 
-  Sends a message to the user, for example:
+    - ``/send-msg {user} {message}``
 
-  >input: /send-msg {Kasakh} {Hello World!}
-  >
-  >output: @Kasakh! Message from Kasakh:
-  >
-  >Hello World!
+    Sends a message to the user, for example:
 
-  - ``/vc-disconnect {timer} ({user} || {voice-channel})``
+    >input: /send-msg {Kasakh} {Hello World!}
+    >
+    >output: @Kasakh! Message from Kasakh:
+    >
+    >Hello World!
 
-  Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
+    - ``/vc-disconnect {timer} ({user} || {voice-channel})``
+
+    Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
 
 - ````
 
