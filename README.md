@@ -12,6 +12,8 @@ Built with JavaScript
 
 -Sends a message to a specific channel when a specific user gets online
 
+-Deletes duplicates of a specific message
+
 - <strong>Commands</strong>:
 
   - <strong>Fun</strong>
@@ -38,19 +40,27 @@ Built with JavaScript
 
     - ``/vc-disconnect {timer} ({user} || {voice-channel})``
 
-    Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
+    Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes. Sends a message to a specified chanel saying "Disconnecting {user} from wherever he might be connected after {timer}hours/minutes/seconds (LIVE timer)" or "Disconnecting everyone from {channel} after {timer}hours/minutes/seconds (LIVE timer)"
   
   - <strong>Games</strong>
                           
-    - ``/akinator``
+    - ``/akinator {game-type}``
              
-    Well known Akinator game, he tries to guess who or what you are thinking about (character, object or animal)
+    Well known Akinator game, he tries to guess who or what you are thinking based on the {game-type} provided (character, object or animal)
   
   - <strong>Useful</strong>
                            
     - ``/help``
                            
     Replies to your message with a list of the bot's commands and functionalities
+    
+    - ``/suggest``
+
+    Allows you to send me a suggestion about the bot (linked to a Data Base). It can be a suggestion about new features or commands, a bug report or you an suggest changes to the existing commands and functionalities
+    
+    - ``/weather {location} {unit}``
+
+    This command gets the weather for a given {location} in a given unit type ({unit}). Disclaimer: It can sometimes be slow and timeout, simply wait a moment and execute the command again
 
 # To create a Discord Bot:
 
