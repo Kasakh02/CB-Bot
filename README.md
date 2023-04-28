@@ -30,7 +30,7 @@ Built with JavaScript
     
     Gets the bot's ping
 
-  - <strong>Moderation<\strong> 
+  - Moderation
 
     - ``/vc-disconnect {timer} ({user} || {voice-channel})``
 
