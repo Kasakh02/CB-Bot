@@ -2,6 +2,12 @@
 
 Built with JavaScript
 
+<strong>INVITE</strong>
+
+To invite my bot copy the link below and paste it in any browser:
+
+https://discord.com/api/oauth2/authorize?client_id=1095815795482837102&permissions=8&scope=bot%20applications.commands
+
 - <strong>Functionalities</strong>:
 
 -Deletes -* commands (e.g. -p, -skip) for Vxera bot interactions after 1 second
