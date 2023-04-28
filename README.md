@@ -22,7 +22,7 @@ https://discord.com/api/oauth2/authorize?client_id=1095815795482837102&permissio
 
 - <strong>Commands</strong>:
 
-  - <strong>Fun</strong>
+  - 🥳 <strong>Fun</strong>
 
     - ``/send-msg {user} {message}``
 
@@ -42,19 +42,19 @@ https://discord.com/api/oauth2/authorize?client_id=1095815795482837102&permissio
     
     Gets the bot's ping
 
-  - <strong>Moderation</strong>
+  - 🛠 <strong>Moderation</strong>
 
     - ``/vc-disconnect {timer} ({user} || {voice-channel})``
 
     Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes. Sends a message to a specified chanel saying _<strong>"Disconnecting {user} from wherever he might be connected after {timer}hours/minutes/seconds (LIVE timer)"</strong>_ or _<strong>"Disconnecting everyone from {channel} after {timer}hours/minutes/seconds (LIVE timer)"</strong>_
   
-  - <strong>Games</strong>
+  - 🕹 <strong>Games</strong>
                           
     - ``/akinator {game-type}``
              
     Well known Akinator game, he tries to guess who or what you are thinking based on the {game-type} provided (character, object or animal)
   
-  - <strong>Useful</strong>
+  - ⚙️ <strong>Useful</strong>
                            
     - ``/help``
                            
