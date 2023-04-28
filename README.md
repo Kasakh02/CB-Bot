@@ -45,6 +45,8 @@ Built with JavaScript
   - <strong>Useful<\strong
                            
     - ``/help``
+                           
+    Replies to your message with a list of the bot's commands and functionalities
 
 # To create a Discord Bot:
 
