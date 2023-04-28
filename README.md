@@ -40,7 +40,7 @@ Built with JavaScript
 
     - ``/vc-disconnect {timer} ({user} || {voice-channel})``
 
-    Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes. Sends a message to a specified chanel saying _"Disconnecting {user} from wherever he might be connected after {timer}hours/minutes/seconds (LIVE timer)"_ or _"Disconnecting everyone from {channel} after {timer}hours/minutes/seconds (LIVE timer)"_
+    Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes. Sends a message to a specified chanel saying _*"Disconnecting {user} from wherever he might be connected after {timer}hours/minutes/seconds (LIVE timer)"*_ or _*"Disconnecting everyone from {channel} after {timer}hours/minutes/seconds (LIVE timer)"*_
   
   - <strong>Games</strong>
                           
