@@ -2,7 +2,7 @@
 
 Built with JavaScript
 
-- <strong>Functionalities</strong>:
+- <strong>Functionalities<\strong>:
 
 -Deletes -* commands (e.g. -p, -skip) for Vxera bot interactions after 1 second
 
@@ -12,7 +12,7 @@ Built with JavaScript
 
 -Sends a message to a specific channel when a specific user gets online
 
-- <strong>Commands</strong>:
+- <strong>Commands<\strong>:
 
   - <strong>Fun<\strong>
 
