@@ -2,7 +2,7 @@
 
 Built with JavaScript
 
-- <strong>Functionalities<\strong>:
+- <strong>Functionalities</strong>:
 
 -Deletes -* commands (e.g. -p, -skip) for Vxera bot interactions after 1 second
 
@@ -12,9 +12,9 @@ Built with JavaScript
 
 -Sends a message to a specific channel when a specific user gets online
 
-- <strong>Commands<\strong>:
+- <strong>Commands</strong>:
 
-  - <strong>Fun<\strong>
+  - <strong>Fun</strong>
 
     - ``/send-msg {user} {message}``
 
@@ -30,19 +30,19 @@ Built with JavaScript
     
     Gets the bot's ping
 
-  - <strong>Moderation<\strong>
+  - <strong>Moderation</strong>
 
     - ``/vc-disconnect {timer} ({user} || {voice-channel})``
 
     Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
   
-  - <strong>Games<\strong>
+  - <strong>Games</strong>
                           
     - ``/akinator``
              
     Well known Akinator game, he tries to guess who or what you are thinking about (character, object or animal)
   
-  - <strong>Useful<\strong>
+  - <strong>Useful</strong>
                            
     - ``/help``
                            
