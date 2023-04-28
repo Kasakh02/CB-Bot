@@ -2,7 +2,7 @@
 
 Built with JavaScript
 
-<strong>INVITE</strong>
+# <strong>INVITE</strong>
 
 To invite my bot copy the link below and paste it in any browser:
 
