@@ -12,9 +12,9 @@ Built with JavaScript
 
 -Sends a message to a specific channel when a specific user gets online
 
-<strong>Commands</strong>:
+- <strong>Commands</strong>:
 
-- /send-msg {user} {message}
+- ``/send-msg {user} {message}``
 
 Sends a message to the user, for example:
 
@@ -24,12 +24,11 @@ Sends a message to the user, for example:
 >
 >Hello World!
 
-- /vc-disconnect {timer} ({user} || {voice-channel})
+- ``/vc-disconnect {timer} ({user} || {voice-channel})``
 
 Disconnects {user} from wherever he's connected, after {timer} minutes or disconnects everyone from a {voice-channel} after {timer} minutes
 
-** Send suggestions through the link below:
-https://forms.gle/hUQor15VfzjJStvU9
+- ````
 
 # To create a Discord Bot:
 
